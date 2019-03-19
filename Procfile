@@ -1,2 +1,2 @@
-web: gunicorn app:why
+web: gunicorn why:app
 dev: flask run
