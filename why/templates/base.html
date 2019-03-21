@@ -13,6 +13,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Who助</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <div class="user">
+            <a href="#">Login<img src="https://image.flaticon.com/icons/svg/145/145852.svg" height="40px" width="40px" alt="user icon"></a>
+          </div>
+        </div>
     </nav>
 
     {% block body %}{% endblock %}
