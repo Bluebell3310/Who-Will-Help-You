@@ -1,7 +1,103 @@
 {% extends "base.html" %}
 
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
 {% block title %}首頁{% endblock %}
 
-{% block page_content %}
-<h1>Who助</h1>
+{% block body %}
+<!--jumbotron-->
+<div class="jumbotron jumbotron-fluid d-flex align-items-center justify-content-around flex-column text-center">
+  <div></div>
+  <header>
+    <h1>Who助</h1>
+    <h3 class="slogan text-center">Who will help you</h3>
+  </header>
+  <button class="btn btn-primary" @click="signInWithGoogle">Get Started</button>
+  <div class="scroll-down-div">
+    <a href="#section1">
+      <i class="fas fa-angle-down fa-3x"></i>
+    </a>
+  </div>
+
+</div>
+<!--main article-->
+<section id="section1" class="container-fluid d-flex align-items-center justify-content-center section-dark">
+  <div class="row col-12 align-items-center justify-content-center">
+    <article class="col-12 col-sm-6 col-md-7">
+      <header>
+        <h2 class="article_title">Story/Intro</h2>
+      </header>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </article>
+    <div class="col-12 col-sm-6 col-md-5 d-flex align-items-center justify-content-center">
+      <img class="img-fluid" src="https://image.flaticon.com/icons/svg/119/119583.svg" alt="city image">
+    </div>
+    <div class="scroll-down-div col-12 text-center">
+      <a href="#section2">
+        <i class="fas fa-angle-down fa-3x"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="section2" class="container-fluid d-flex align-items-center justify-content-center">
+  <div class="row col-12  justify-content-center flex-sm-row-reverse">
+    <article class="col-12 col-sm-6 col-md-7">
+      <header>
+        <h2 class="article_title">Key feature1</h2>
+      </header>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </article>
+    <div class="col-12 col-sm-6 col-md-5 d-flex align-items-center justify-content-center">
+      <img class="img-fluid" src="https://image.flaticon.com/icons/svg/119/119583.svg" alt="city image">
+    </div>
+    <div class="scroll-down-div col-12 text-center">
+      <a href="#section3">
+        <i class="fas fa-angle-down fa-3x"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="section3" class="container-fluid d-flex align-items-center justify-content-center section-dark">
+  <div class="row col-12 align-items-center justify-content-center">
+    <article class="col-12 col-sm-6 col-md-7">
+      <header>
+        <h2 class="article_title">Key feature2</h2>
+      </header>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+    </article>
+    <div class="col-12 col-sm-6 col-md-5 d-flex align-items-center justify-content-center">
+      <img class="img-fluid" src="https://image.flaticon.com/icons/svg/119/119583.svg" alt="city image">
+    </div>
+    <div class="scroll-down-div col-12 text-center">
+      <a href="#section4">
+        <i class="fas fa-angle-down fa-3x"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!--summary-->
+<section id="section4" class="container-fluid d-flex align-items-center justify-content-center">
+  <div class="row col-12 align-items-center justify-content-center flex-sm-row-reverse">
+    <article class="col-12 col-sm-6 col-md-7">
+      <div>
+        <h2 class="article_title">Start using it today!</h2>
+        <br />
+        <button class="btn btn-primary" @click="signInWithGoogle">Get Started</button>
+      </div>
+    </article>
+    <div class="col-12 col-sm-6 col-md-5 d-flex align-items-center justify-content-center">
+      <img class="img-fluid" src="https://image.flaticon.com/icons/svg/119/119583.svg" alt="city image">
+    </div>
+  </div>
+</section>
 {% endblock %}
