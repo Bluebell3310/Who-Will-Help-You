@@ -42,13 +42,13 @@ img {
   margin-top: 1rem;
 }
 .fas {
-  color: rgb(14, 14, 14);;
+  color: rgb(14, 14, 14);
 }
 /**Different section backgrounds**/
 .section-dark{
   color: rgb(250, 255, 250);
   background-color: rgb(81, 150, 143);
 }
-.section-dark .scroll-down-div .fa {
+.section-dark .scroll-down-div .fas {
   color: rgb(250, 255, 250);
 }
