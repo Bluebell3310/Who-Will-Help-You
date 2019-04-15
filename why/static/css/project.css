@@ -2,6 +2,9 @@
   padding-top: 3.5rem;
   min-height: 100%;
 }
+h5 {
+  margin-top: 2rem;
+}
 /**jumbotron**/
 .jumbotron {
   margin-bottom: 0;
@@ -31,4 +34,5 @@
   overflow: auto;
   flex-wrap: nowrap;
   border-bottom: 0.2rem solid rgb(81, 150, 143);
+  margin-bottom: 2rem;
 }
