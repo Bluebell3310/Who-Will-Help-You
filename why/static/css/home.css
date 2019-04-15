@@ -1,7 +1,6 @@
 .home {
   padding-top: 3.5rem;
   min-height: 100%;
-  max-width: 1200px;
   margin: auto;
 }
 
@@ -11,15 +10,15 @@
   }
 }
 /**nav**/
-.card-nav .nav-link {
+.my-nav .nav-link {
   color: rgb(14, 14, 14);
   min-width: 7rem;
   text-align: center;
 }
-.card-nav .nav-link.active {
+.my-nav .nav-link.active {
   border-bottom: 0.5rem solid rgb(81, 150, 143);
 }
-.card-nav{
+.my-nav{
   display: flex;
   overflow: auto;
   flex-wrap: nowrap;
