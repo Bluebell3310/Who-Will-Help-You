@@ -1,19 +1,23 @@
 .home {
   padding-top: 3.5rem;
   min-height: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.nav-tabs .nav-link {
+.card-nav .nav-link {
   color: rgb(14, 14, 14);
+  min-width: 7rem;
+  text-align: center;
 }
-.nav-tabs{
+.card-nav .nav-link.active {
+  border-bottom: 0.5rem solid rgb(81, 150, 143);
+}
+.card-nav{
   display: flex;
   overflow: auto;
   flex-wrap: nowrap;
-}
-.nav-link {
-  min-width: 7rem;
-  text-align: center;
+  border-bottom: 0.2rem solid rgb(81, 150, 143);
 }
 /**cards**/
 .card-container {

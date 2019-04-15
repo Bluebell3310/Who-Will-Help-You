@@ -8,43 +8,35 @@
 {% block body %}
 <div class="home">
   <nav>
-    <div class="nav nav-tabs" id="nav-tab" role="tablist">
-      <a class="nav-item nav-link active" id="nav-web-tab" data-toggle="tab" href="#nav-web" role="tab" aria-controls="nav-web" aria-selected="true">網頁設計</a>
-      <a class="nav-item nav-link" id="nav-mobile-tab" data-toggle="tab" href="#nav-mobile" role="tab" aria-controls="nav-mobile" aria-selected="false">行動應用</a>
-      <a class="nav-item nav-link" id="nav-iot-tab" data-toggle="tab" href="#nav-iot" role="tab" aria-controls="nav-iot" aria-selected="false">物聯網</a>
-      <a class="nav-item nav-link" id="nav-pc-tab" data-toggle="tab" href="#nav-pc" role="tab" aria-controls="nav-pc" aria-selected="false">桌面應用</a>
-      <a class="nav-item nav-link" id="nav-game-tab" data-toggle="tab" href="#nav-game" role="tab" aria-controls="nav-game" aria-selected="false">遊戲設計</a>
+    <div class="nav card-nav">
+      <a class="nav-item nav-link active" href="">網頁設計</a>
+      <a class="nav-item nav-link" href="">行動應用</a>
+      <a class="nav-item nav-link" href="">物聯網</a>
+      <a class="nav-item nav-link" href="">桌面應用</a>
+      <a class="nav-item nav-link" href="">遊戲設計</a>
     </div>
   </nav>
-  <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-web" role="tabpanel" aria-labelledby="nav-web-tab">
-      <div class="card-container">
-        <a class="card" href="">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Flask部落格</h5>
-            <span class="tag">Flask</span>
-            <span class="tag">JQuary</span>
-          </div>
-        </a>
-        <a class="card" href="">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Flask部落格</h5>
-          </div>
-        </a>
-        <a class="card" href="">
-          <img class="card-img-top" src="..." alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Flask部落格</h5>
-          </div>
-        </a>
-      </div>
+    <div class="card-container">
+      <a class="card" href="">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Flask部落格</h5>
+          <span class="tag">Flask</span>
+          <span class="tag">JQuary</span>
+        </div>
+      </a>
+      <a class="card" href="">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Flask部落格</h5>
+        </div>
+      </a>
+      <a class="card" href="">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Flask部落格</h5>
+        </div>
+      </a>
     </div>
-    <div class="tab-pane fade" id="nav-mobile" role="tabpanel" aria-labelledby="nav-mobile-tab">...</div>
-    <div class="tab-pane fade" id="nav-iot" role="tabpanel" aria-labelledby="nav-iot-tab">...</div>
-    <div class="tab-pane fade" id="nav-pc" role="tabpanel" aria-labelledby="nav-pc-tab">...</div>
-    <div class="tab-pane fade" id="nav-game" role="tabpanel" aria-labelledby="nav-game-tab">...</div>
-  </div>
 </div>
 {% endblock %}
