@@ -5,6 +5,12 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 1000px) {
+  h5 {
+    margin-left: 1rem;
+  }
+}
+/**nav**/
 .card-nav .nav-link {
   color: rgb(14, 14, 14);
   min-width: 7rem;
@@ -25,6 +31,7 @@
   flex-wrap: nowrap;
   overflow: auto;
   padding: 1rem;
+  margin-bottom: 1rem;
 }
 .card {
   min-width: 12rem;
@@ -39,4 +46,14 @@ a.card, a.card:hover{
 .card-img-top {
   height: 150px;
   background-color: gray;
+}
+/**project-type**/
+.project-type {
+  line-height: 4rem;
+}
+.project-type .tag{
+  background-color: rgb(81, 150, 143);
+  color: rgb(250, 255, 250);
+  font-size: 2rem;
+  margin: 0.5rem;
 }

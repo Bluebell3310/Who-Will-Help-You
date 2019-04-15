@@ -73,4 +73,6 @@ div.footer a {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   margin-bottom: 0.5rem;
+  color: rgb(14, 14, 14);
+  text-decoration: none;
 }
