@@ -1,0 +1,38 @@
+.home {
+  padding-top: 3.5rem;
+  min-height: 100%;
+}
+
+.nav-tabs .nav-link {
+  color: rgb(14, 14, 14);
+}
+.nav-tabs{
+  display: flex;
+  overflow: auto;
+  flex-wrap: nowrap;
+}
+.nav-link {
+  min-width: 7rem;
+  text-align: center;
+}
+/**cards**/
+.card-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  padding: 1rem;
+}
+.card {
+  min-width: 12rem;
+  max-width: 12rem;
+  margin: 0.5rem;
+  line-height: 2rem;
+}
+a.card, a.card:hover{
+  color: rgb(14, 14, 14);
+  text-decoration: none;
+}
+.card-img-top {
+  height: 150px;
+  background-color: gray;
+}
