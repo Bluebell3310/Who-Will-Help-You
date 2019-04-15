@@ -8,3 +8,7 @@ def index():
 @app.route('/home')
 def home():
     return render_template('home.html')
+
+@app.route('/project/<int:project_id>')
+def project(project_id):
+    return render_template('project.html')

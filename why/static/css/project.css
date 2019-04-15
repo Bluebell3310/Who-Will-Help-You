@@ -1,0 +1,16 @@
+.project {
+  padding-top: 3.5rem;
+  min-height: 100%;
+}
+
+.jumbotron .row{
+  max-width: 1200px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.jumbotron img{
+  width: 15rem;
+  height: 15rem;
+  margin: 1rem;
+}
